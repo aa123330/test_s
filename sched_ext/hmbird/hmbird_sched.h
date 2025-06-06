@@ -22,7 +22,7 @@
 #include <uapi/linux/sched/types.h>
 #include <../kernel/time/tick-sched.h>
 #include <../kernel/sched/sched.h>
-#include "../../time/tick-sched.h"
+#include <../kerne/time/tick-sched.h>
 #include <trace/hooks/sched.h>
 
 #define REGISTER_TRACE_VH(vender_hook, handler) \
